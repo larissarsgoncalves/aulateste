@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade da aula 25/7</title>
+</head>
+<body>
+    <script>
+        //function soma(a,b){
+        //    return a + b;
+        //}
+
+        //const resultado = soma(300,4);
+        //window.alert(resultado)
+
+
+
+        function somaDois(){
+            let a = parseFloat(prompt("insira o primeiro valor:"));
+            let b = parseFloat(prompt("insira o primeiro valor:"));
+            resultado = a + b;
+            window.alert(resultado);
+        }
+
+        //somaDois();
+
+        //faça um que calcule a media. se >=7 aprovado se nao reprovado
+        function media(){
+            let notaUm = parseFloat(prompt("Insira a primeira nota: "));
+            let notaDois = parseFloat(prompt("Insira a segunda nota: "));
+            let mediasemestre = (notaUm + notaDois) / 2
+
+            if (media>=7){
+                window.alert("Aprovado! média: " + mediasemestre)
+            } else{
+                window.alert("REprovado!")
+            }
+        }
+        media();
+    </script>
+
+</body>
+</html>
